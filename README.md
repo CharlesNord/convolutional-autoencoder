@@ -1,4 +1,4 @@
-# onvolutional-autoencoder
+# convolutional-autoencoder
 
 ## cae
 Re-implementation of code in this link: https://github.com/XifengGuo/DCEC/blob/master/ConvAE.py
@@ -19,3 +19,9 @@ The bottle neck features are in 2D space, so that we can directly visualize them
 ![clustering](https://github.com/CharlesNord/convolutional-autoencoder/blob/master/images/scatter_20.png)
 
 
+## cae tsne
+Encode the image to 10D vector, and use tsne to visualize it
+### 10D-CAE reconstruction
+![10D-reconstruction](https://github.com/CharlesNord/convolutional-autoencoder/blob/master/images/reconstruction_10D.png)
+### 10D-CAE tsne visualization
+![10D-tsne](https://github.com/CharlesNord/convolutional-autoencoder/blob/master/images/10D_tsne.png)
