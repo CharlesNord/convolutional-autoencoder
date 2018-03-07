@@ -23,8 +23,8 @@ class CAE(torch.nn.Module):
             torch.nn.Conv2d(in_channels=64, out_channels=128, kernel_size=3, stride=2, padding=0),  # 3*3
             torch.nn.ReLU()
         )
-        self.embedding = torch.nn.Linear(in_features=3 * 3 * 128, out_features=2)
-        self.fc = torch.nn.Linear(in_features=2, out_features=128 * 3 * 3)  # 3*3
+        self.embedding = torch.nn.Linear(in_features=3 * 3 * 128, out_features=10)
+        self.fc = torch.nn.Linear(in_features=10, out_features=128 * 3 * 3)  # 3*3
         self.decoder = torch.nn.Sequential(
             torch.nn.ConvTranspose2d(in_channels=128, out_channels=64, kernel_size=3, stride=2, padding=0),  # 7*7
             torch.nn.ReLU(),
