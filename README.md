@@ -25,3 +25,12 @@ Encode the image to 10D vector, and use tsne to visualize it
 ![10D-reconstruction](https://github.com/CharlesNord/convolutional-autoencoder/blob/master/images/reconstruction_10D.png)
 ### 10D-CAE tsne visualization
 ![10D-tsne](https://github.com/CharlesNord/convolutional-autoencoder/blob/master/images/10D_tsne.png)
+
+
+## cvae
+Convolutional variational autoencoder
+Encode the image to 10D vector, and visualize it by tsne
+### 10D-CVAE reconstruction
+![10D-cvae-reconstruction](https://github.com/CharlesNord/convolutional-autoencoder/blob/master/images/10D_CVAE_recon.png)
+### 10D-CVAE tsne visualization
+![10D-cvae-tsne](https://github.com/CharlesNord/convolutional-autoencoder/blob/master/images/10D_CVAE.png)
