@@ -34,3 +34,12 @@ Encode the image to 10D vector, and visualize it by tsne
 ![10D-cvae-reconstruction](https://github.com/CharlesNord/convolutional-autoencoder/blob/master/images/10D_CVAE_recon.png)
 ### 10D-CVAE tsne visualization
 ![10D-cvae-tsne](https://github.com/CharlesNord/convolutional-autoencoder/blob/master/images/10D_CVAE.png)
+
+## conditional_conv_vae
+Modified based on convolutional variational autoencoder, I tested only input label in decoder and input label both in encoder and decoder, here is the result.
+### input label only in decoder
+![only in decoder](https://github.com/CharlesNord/convolutional-autoencoder/blob/master/images/conditional_conv_vae_sample_20.png)
+### input label in both encoder and decoder
+![both in decoder and encoder](https://github.com/CharlesNord/convolutional-autoencoder/blob/master/images/2_conditional_conv_vae_sample_3.png)
+
+We could easily find that the second is better, and this is what most conditional vae algorithms do.
