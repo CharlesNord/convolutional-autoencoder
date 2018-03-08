@@ -63,7 +63,7 @@ class CVAE(torch.nn.Module):
     def forward(self, x):
         mu, logvar = self.encode(x)
         z = self.reparametrize(mu, logvar)
-        out = self.decode(mu)
+        out = self.decode(z)
         return out, mu, logvar
 
 
