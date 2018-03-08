@@ -79,12 +79,13 @@ def loss_func(recon_x, x, mu, logvar):
 
 
 def scatter(feat, label, epoch):
-    if code_dim>2:
-        tsne = TSNE(perplexity=30, n_components=2, init='pca', n_iter=5000)
-        feat = tsne.fit_transform(feat)
     if feat.shape[0] > 5000:
         feat = feat[:5000, :]
         label = label[:5000]
+        
+    if code_dim>2:
+        tsne = TSNE(perplexity=30, n_components=2, init='pca', n_iter=5000)
+        feat = tsne.fit_transform(feat)
 
     plt.ion()
     plt.clf()
