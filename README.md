@@ -40,6 +40,6 @@ Modified based on convolutional variational autoencoder, I tested only input lab
 ### input label only in decoder
 ![only in decoder](https://github.com/CharlesNord/convolutional-autoencoder/blob/master/images/conditional_conv_vae_sample_20.png)
 ### input label in both encoder and decoder
-![both in decoder and encoder](https://github.com/CharlesNord/convolutional-autoencoder/blob/master/images/2_conditional_conv_vae_sample_3.png)
+![both in decoder and encoder](https://github.com/CharlesNord/convolutional-autoencoder/blob/master/images/2_conditional_conv_vae_sample_20.png)
 
 We could easily find that the second is better, and this is what most conditional vae algorithms do.
